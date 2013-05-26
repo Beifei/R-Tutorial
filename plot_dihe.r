@@ -1,12 +1,12 @@
 pdf('dihe_all.pdf',height=5)
 
+library('vioplot')
 load('dihe_all')
 #dim(dihe_all)=20000 10
 #2000x10 frames
 #5x2 5x1 5x1
 
 
-########################
 ####dihedral_all########
 layout(matrix(1:4,byrow=T,ncol=2))
 par(mar=c(3,5,2,2))
